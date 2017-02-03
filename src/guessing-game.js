@@ -17,11 +17,11 @@ class GuessingGame {
     }
 
     lower() {
-    	this.high = this.mid - 1;
+    	this.high = this.mid;
     }
 
     greater() {
-    	this.low = this.mid + 1;
+    	this.low = this.mid;
     }
 }
 
