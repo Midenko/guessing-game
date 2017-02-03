@@ -12,7 +12,7 @@ class GuessingGame {
     }
 
     guess() {
-    	this.mid = Math.round( (this.low + this.high) / 2 );
+    	this.mid = Math.ceil( (this.low + this.high) / 2 );
     	return this.mid;
     }
 
